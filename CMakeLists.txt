@@ -17,6 +17,9 @@ set(SOURCES
     src/osm_parser.cpp
     src/pctsp_optimizer.cpp
     src/tinyxml2.cpp
+    src/graph_serializer.cpp
+    src/overpass_client.cpp
+    src/region_cache.cpp
 )
 
 # Create executable
